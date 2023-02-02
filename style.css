@@ -1,0 +1,373 @@
+/*!
+Theme Name: PA - Theme Institucional (Child)
+Theme URI: adventistas.org
+Description: Parent theme for adventistas.org website network.
+Author: WebDSA
+Version: 1.2.14
+Template: pa-theme-sedes
+
+*/
+.depto-institucional {
+  --pa-color-default: #003366;
+  --pa-color-default-dark: #00172e;
+  --pa-color-default-light: #004d99;
+  --pa-color-default-aux: #74ade7;
+}
+
+.depto-videos {
+  --pa-color-default: #940029;
+  --pa-color-default-dark: #5c0019;
+  --pa-color-default-light: #c70037;
+  --pa-color-default-aux: #ed9bb2;
+}
+
+.depto-noticias {
+  --pa-color-default: #448D21;
+  --pa-color-default-dark: #2e6016;
+  --pa-color-default-light: #58b62b;
+  --pa-color-default-aux: #cce0c3;
+}
+
+.depto-downloads {
+  --pa-color-default: #E36520;
+  --pa-color-default-dark: #b44e17;
+  --pa-color-default-light: #e9844d;
+  --pa-color-default-aux: #fdfbfa;
+}
+
+.depto-adolescente {
+  --pa-color-default: #a8750d;
+  --pa-color-default-dark: #745109;
+  --pa-color-default-light: #d79611;
+  --pa-color-default-aux: #ecddbd;
+}
+
+.depto-adra {
+  --pa-color-default: #e66c13;
+  --pa-color-default-dark: #b2540f;
+  --pa-color-default-light: #ef883d;
+  --pa-color-default-aux: #fbf6f2;
+}
+
+.depto-afam {
+  --pa-color-default: #761c27;
+  --pa-color-default-dark: #491118;
+  --pa-color-default-light: #9f2635;
+  --pa-color-default-aux: #d6b1b5;
+}
+
+.depto-asa {
+  --pa-color-default: #bb922e;
+  --pa-color-default-dark: #8e6f23;
+  --pa-color-default-light: #d2ab4a;
+  --pa-color-default-aux: #f4f1ea;
+}
+
+.depto-associacao-ministerial {
+  --pa-color-default: #97632B;
+  --pa-color-default-dark: #6b461f;
+  --pa-color-default-light: #bf7d36;
+  --pa-color-default-aux: #e5dcd2;
+}
+
+.depto-aventureiro {
+  --pa-color-default: #5F2351;
+  --pa-color-default-dark: #36142e;
+  --pa-color-default-light: #843171;
+  --pa-color-default-aux: #c6b0c1;
+}
+
+.depto-comunicacao {
+  --pa-color-default: #e96c50;
+  --pa-color-default-dark: #e3421e;
+  --pa-color-default-light: #ef927d;
+  --pa-color-default-aux: white;
+}
+
+.depto-crianca {
+  --pa-color-default: #ad3945;
+  --pa-color-default-dark: #832b34;
+  --pa-color-default-light: #c6535f;
+  --pa-color-default-aux: #f1eaeb;
+}
+
+.depto-desbravador {
+  --pa-color-default: #df3224;
+  --pa-color-default-dark: #b1251a;
+  --pa-color-default-light: #e65c50;
+  --pa-color-default-aux: #fdfbfb;
+}
+
+.depto-educacao {
+  --pa-color-default: #da8d3a;
+  --pa-color-default-dark: #b97123;
+  --pa-color-default-light: #e2a665;
+  --pa-color-default-aux: white;
+}
+
+.depto-escola-sabatina {
+  --pa-color-default: #608f4b;
+  --pa-color-default-dark: #476a38;
+  --pa-color-default-light: #78ac61;
+  --pa-color-default-aux: #e7e8e7;
+}
+
+.depto-espirito-profecia {
+  --pa-color-default: #30744c;
+  --pa-color-default-dark: #204c32;
+  --pa-color-default-light: #3f9864;
+  --pa-color-default-aux: #c7d2cb;
+}
+
+.depto-evangelismo {
+  --pa-color-default: #81281a;
+  --pa-color-default-dark: #521a11;
+  --pa-color-default-light: #ab3523;
+  --pa-color-default-aux: #dcb9b4;
+}
+
+.depto-familia {
+  --pa-color-default: #e59660;
+  --pa-color-default-dark: #dd7630;
+  --pa-color-default-light: #ecb38c;
+  --pa-color-default-aux: white;
+}
+
+.depto-jovem {
+  --pa-color-default: #2E1F9D;
+  --pa-color-default-dark: #20166e;
+  --pa-color-default-light: #3a27c8;
+  --pa-color-default-aux: #cecae7;
+}
+
+.depto-liberdade-religiosa {
+  --pa-color-default: #b1383c;
+  --pa-color-default-dark: #862b2e;
+  --pa-color-default-light: #c95357;
+  --pa-color-default-aux: #f2ebec;
+}
+
+.depto-ministerio-pessoal {
+  --pa-color-default: #ae3f45;
+  --pa-color-default-dark: #853035;
+  --pa-color-default-light: #c45c62;
+  --pa-color-default-aux: #f3efef;
+}
+
+.depto-missao-global {
+  --pa-color-default: #529e8c;
+  --pa-color-default-dark: #3f796b;
+  --pa-color-default-light: #6fb4a4;
+  --pa-color-default-aux: #f2f3f3;
+}
+
+.depto-mordomia {
+  --pa-color-default: #a0893b;
+  --pa-color-default-dark: #77662c;
+  --pa-color-default-light: #bea550;
+  --pa-color-default-aux: #eceae4;
+}
+
+.depto-mulher {
+  --pa-color-default: #c44465;
+  --pa-color-default-dark: #9e324e;
+  --pa-color-default-light: #d06b85;
+  --pa-color-default-aux: #fffefe;
+}
+
+.depto-musica {
+  --pa-color-default: #7b3876;
+  --pa-color-default-dark: #542651;
+  --pa-color-default-light: #9e4898;
+  --pa-color-default-aux: #d7d1d7;
+}
+
+.depto-publicacoes {
+  --pa-color-default: #72a7af;
+  --pa-color-default-dark: #548c95;
+  --pa-color-default-light: #93bbc1;
+  --pa-color-default-aux: white;
+}
+
+.depto-salt {
+  --pa-color-default: #bb922e;
+  --pa-color-default-dark: #8e6f23;
+  --pa-color-default-light: #d2ab4a;
+  --pa-color-default-aux: #f4f1ea;
+}
+
+.depto-saude {
+  --pa-color-default: #727d00;
+  --pa-color-default-dark: #3f4500;
+  --pa-color-default-light: #a1b000;
+  --pa-color-default-aux: #e1ea88;
+}
+
+.depto-universitario {
+  --pa-color-default: #3c54b6;
+  --pa-color-default-dark: #2e418c;
+  --pa-color-default-light: #5c71c9;
+  --pa-color-default-aux: #f1f2f6;
+}
+
+.depto-voluntario {
+  --pa-color-default: #4490cb;
+  --pa-color-default-dark: #2f73a8;
+  --pa-color-default-light: #6ca8d6;
+  --pa-color-default-aux: white;
+}
+
+.depto-recepcao {
+  --pa-color-default: #659a73;
+  --pa-color-default-dark: #4f785a;
+  --pa-color-default-light: #84ae8f;
+  --pa-color-default-aux: #fafafa;
+}
+
+.depto-map {
+  --pa-color-default: #5c61a1;
+  --pa-color-default-dark: #484b7d;
+  --pa-color-default-light: #7c80b4;
+  --pa-color-default-aux: #f9f9f9;
+}
+
+.pa-archive-projects figure .pa-img-default::after {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.1215686275);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  border-radius: 0.3rem !important;
+  background-image: url("data:image/svg+xml,%3Csvg width='368' height='330' viewBox='0 0 368 330' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M218.896 190.862C204.014 205.727 196.827 212.795 193.114 230.814C192.829 232.16 191.29 232.16 191.29 230.814V208.738C191.29 194.586 203.919 181.639 218.944 166.632L231.033 154.556C247.978 137.631 252.055 118.028 238.585 106.38C237.459 105.397 238.046 104.209 239.522 104.874C256.323 112.529 269.555 140.293 240.759 169.056L218.896 190.862ZM191.227 247.596V269.814C191.227 271.161 192.766 271.161 193.051 269.814C196.764 251.796 203.966 244.585 218.833 229.72L242.393 206.234C271.189 177.471 276.171 149.643 261.527 131.751C260.543 130.563 259.496 131.276 260.131 132.718C269.809 154.603 246.597 177.804 235.539 188.85L218.88 205.49C203.84 220.513 191.227 233.444 191.227 247.596ZM127.352 176.108C98.556 204.871 111.804 232.652 128.589 240.29C130.065 240.956 130.652 239.767 129.525 238.785C116.056 227.137 120.149 207.534 137.077 190.609L184.928 142.797C199.969 127.774 212.581 114.842 212.581 100.691V78.631C212.581 77.2837 211.043 77.2837 210.757 78.631C207.044 96.6495 199.841 103.717 184.975 118.582L127.352 176.108ZM212.661 61.8487V39.6146C212.661 38.2676 211.122 38.2676 210.836 39.6146C207.124 57.6331 199.921 64.8437 185.055 79.7088L125.718 138.93C96.9214 167.693 91.9401 195.521 106.584 213.413C107.567 214.602 108.615 213.889 107.98 212.446C98.3019 190.561 121.513 167.361 132.571 156.315L185.007 103.955C200.032 88.9317 212.661 76.0001 212.661 61.8487ZM119.482 106.443C94.7161 131.181 91.2577 157.345 96.5569 174.413C97.0009 175.855 98.2704 175.966 98.2546 174.444C98.1273 160.103 102.252 147.773 128.462 121.609L184.96 65.192C200 50.169 212.614 37.2375 212.614 23.0858V1.01027C212.614 -0.336757 211.074 -0.336757 210.789 1.01027C207.076 19.0288 199.858 26.1284 184.975 40.9933L119.482 106.443ZM154.101 285.487C153.609 285.487 153.197 285.091 153.197 284.584V271.779C153.197 271.288 153.609 270.876 154.101 270.876H175.789C176.281 270.876 176.694 270.479 176.694 269.973C176.63 258.467 167.952 250.655 133.158 256.693L58.0352 269.592C58.0352 269.592 0.823841 326.738 0.348323 327.293C-0.429245 328.228 0.173655 329.416 1.37943 329.305C2.4263 329.211 126.368 307.816 126.368 307.816C154.815 303.031 170.331 316.548 174.965 329.211C175.377 330.336 176.71 330.161 176.71 329.099C176.71 328.323 176.71 286.375 176.71 286.375C176.71 285.884 176.313 285.471 175.805 285.471H154.101V285.487ZM243.773 258.229L218.928 283.063C203.887 298.086 191.274 311.017 191.274 325.169L191.29 329.115C191.29 330.193 192.622 330.351 193.035 329.226C197.684 316.564 213.184 303.031 241.632 307.832C241.632 307.832 365.575 329.226 366.618 329.321C367.825 329.432 368.432 328.244 367.649 327.309C367.176 326.754 309.962 269.608 309.962 269.608L243.773 258.229ZM271.57 170.752C271.125 169.31 269.856 169.199 269.872 170.72C269.999 185.062 265.874 197.391 239.664 223.555L218.928 244.252C209.488 253.681 201.016 262.286 196.002 270.876H216.469C217.246 270.084 218.055 269.291 218.896 268.451L248.628 238.722C273.394 213.984 276.853 187.819 271.57 170.752ZM191.274 308.434C191.274 309.782 192.813 309.782 193.099 308.434C195.146 298.514 198.255 291.906 203.126 285.487H192.194C191.702 285.487 191.29 285.884 191.29 286.39V308.434H191.274Z' fill='%23c8c4c4'/%3E%3C/svg%3E%0A");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.pa-archive-projects figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.pa-archive-projects figure figcaption h3 {
+  color: var(--pa-color-gray01);
+}
+
+.pa-slider-principal {
+  background-color: black;
+}
+.pa-slider-principal .glide__slide {
+  background-size: auto 100%;
+  background-position: center;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+  background-color: black;
+}
+.pa-slider-principal .glide__slide .container .row {
+  height: 600px;
+  color: white;
+}
+@media (max-width: 575px) {
+  .pa-slider-principal .glide__slide .container .row {
+    height: 134.933vw;
+  }
+}
+.pa-slider-principal .glide__slide .container .row h1 {
+  font-family: var(--pa-font-secondary);
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+.pa-slider-principal .glide__slide .container .row span,
+.pa-slider-principal .glide__slide .container .row small {
+  letter-spacing: 0.1em;
+}
+.pa-slider-principal .glide__slide--active {
+  opacity: 1;
+}
+.pa-slider-principal .pa-glide-principal {
+  position: relative;
+}
+.pa-slider-principal .pa-glide-principal .pa_slide_item a.btn {
+  border: none;
+  filter: brightness(100%) grayscale(0%);
+  -webkit-filter: brightness(100%) grayscale(0%);
+  -moz-filter: brightness(100%) grayscale(0%);
+  -o-filter: brightness(100%) grayscale(0%);
+  -ms-filter: brightness(100%) grayscale(0%);
+  transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+}
+.pa-slider-principal .pa-glide-principal .pa_slide_item a.btn:hover {
+  filter: brightness(130%) grayscale(30%);
+  -webkit-filter: brightness(130%) grayscale(30%);
+  -moz-filter: brightness(130%) grayscale(30%);
+  -o-filter: brightness(130%) grayscale(30%);
+  -ms-filter: brightness(130%) grayscale(30%);
+}
+.pa-slider-principal .pa-glide-principal .pa-slider-controle {
+  color: var(--pa-color-default-aux);
+  cursor: pointer;
+  position: absolute;
+  right: 52px;
+  bottom: 0;
+  left: 52px;
+}
+.pa-slider-principal .pa-glide-principal .pa-slider-controle .icon {
+  color: var(--pa-color-default);
+}
+.pa-slider-principal .pa-glide-principal .pa-slider-controle .pa-slider-bullet {
+  font-size: 0.5rem;
+}
+.pa-slider-principal .pa-glide-principal .pa-slider-controle .glide__bullet--active {
+  color: white;
+  background-color: transparent;
+}
+
+.pa-lideres .pa-lider-thumb {
+  border: 5px solid var(--pa-color-default-aux);
+  transition: border 0.5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px !important;
+  height: 200px !important;
+}
+.pa-lideres .pa-linkback a,
+.pa-lideres .pa-lider-contact a {
+  color: var(--pa-color-default);
+}
+.pa-lideres a {
+  text-decoration: none;
+  color: var(--pa-color-gray01);
+}
+.pa-lideres a .pa-link-perfil {
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.pa-lideres a:hover {
+  color: var(--pa-color-gray01);
+}
+.pa-lideres a:hover .pa-link-perfil {
+  visibility: visible !important;
+  color: var(--pa-color-default);
+  opacity: 1;
+}
+.pa-lideres a:hover .pa-lider-thumb {
+  border: 5px solid var(--pa-color-default);
+}
+
+.tax-xtt-pa-region .pa-content label {
+  color: rgba(0, 51, 102, 0.4);
+  display: flex;
+  align-items: center;
+}
+
+.single-districts .pa-content img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map*/
