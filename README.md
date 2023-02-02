@@ -1,6 +1,6 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=igrejaadventista_PA-Theme-Sedes-Child&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=igrejaadventista_PA-Theme-Sedes-Child)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=igrejaadventista_PA-Theme-Institucional&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=igrejaadventista_PA-Theme-Institucional)
 
-# Child Theme - Portal Aventista [adventistas.org](https://adventistas.org)
+# Institucional Theme - Portal Aventista [adventistas.org](https://adventistas.org)
 Esse tema foi desenvolvido para ser a base dos portais institucionais. Ele depende to tema [PA-Theme-Sedes](https://github.com/igrejaadventista/pa-theme-sedes) (Por favor, instale-o junto).
 
 ### Instalando dependências globais
