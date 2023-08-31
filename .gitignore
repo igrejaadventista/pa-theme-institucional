@@ -1,1 +1,5 @@
 node_modules
+assets/js/script.js
+mix-manifest.json
+style.css
+style.css.map
